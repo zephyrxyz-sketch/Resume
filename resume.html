@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>[Your Full Name]</h1>
+    <p>B.E. Computer Science & Engineering Undergraduate</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="biodata.html">Bio-data</a>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Personal Information</h2>
+      <p><strong>Name:</strong> [Your Full Name]</p>
+      <p><strong>Age:</strong> 20</p>
+      <p><strong>Address:</strong> [Your Address]</p>
+      <p><strong>Email:</strong> [Your Email]</p>
+      <p><strong>Phone:</strong> [Your Phone]</p>
+      <button id="toggleContact">Show/Hide Links</button>
+      <div id="contactInfo">
+        <p><strong>LinkedIn:</strong> [LinkedIn URL]</p>
+        <p><strong>GitHub:</strong> [GitHub URL]</p>
+        <p><strong>Portfolio:</strong> [Portfolio Link]</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Profile Summary</h2>
+      <p>
+        A motivated and detail-oriented undergraduate student pursuing a degree in Computer Science and Engineering at Coorg Institute of Technology, Ponnampet, Kodagu.
+        Passionate about developing efficient and sustainable digital solutions while maintaining traditional roots in design and ethics.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.E. in Computer Science and Engineering</strong> – Coorg Institute of Technology, Ponnampet, Kodagu (2023–2027)</li>
+        <li><strong>Higher Secondary Education</strong> – [Your School Name]</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Programming: HTML, CSS, JavaScript, Python, C</li>
+        <li>Frameworks: React.js, Node.js</li>
+        <li>Version Control: Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <p>Reading, Sketching, Badminton, Exploring Tech Innovations</p>
+    </section>
+
+    <section>
+      <h2>Connect With Me</h2>
+      <ul class="social-links">
+        <li><a href="[LinkedIn URL]" target="_blank">LinkedIn</a></li>
+        <li><a href="[GitHub URL]" target="_blank">GitHub</a></li>
+        <li><a href="[Twitter URL]" target="_blank">Twitter</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p class="update-note">Last updated: October 2025</p>
+  </footer>
+
+  <script>
+    document.getElementById("toggleContact").addEventListener("click", function() {
+      const contact = document.getElementById("contactInfo");
+      if (contact.style.display === "none" || contact.style.display === "") {
+        contact.style.display = "block";
+        this.textContent = "Hide Links";
+      } else {
+        contact.style.display = "none";
+        this.textContent = "Show Links";
+      }
+    });
+  </script>
+</body>
+</html>

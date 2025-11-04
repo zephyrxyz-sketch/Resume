@@ -1,0 +1,153 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #2f3e46;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+  background-color: #e9eff1;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #d0d6d9;
+}
+
+nav a {
+  color: #2f3e46;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  background-color: #fff;
+  width: 85%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #1f2d36;
+  border-bottom: 2px solid #cfd8dc;
+  padding-bottom: 4px;
+}
+
+p, li {
+  font-size: 1rem;
+  margin: 6px 0;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #2f3e46;
+  color: #fff;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+  color: #b0c4c9;
+}
+
+/* Toggle Button */
+#toggleContact {
+  background-color: #2f3e46;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+#toggleContact:hover {
+  background-color: #243238;
+}
+
+#contactInfo {
+  display: none;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 3px solid #2f3e46;
+}
+
+/* Social Links */
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+.social-links a {
+  color: #2f3e46;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  color: #0077b5;
+}
+
+.update-note {
+  font-size: 0.8rem;
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+}
